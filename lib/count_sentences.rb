@@ -20,10 +20,10 @@ class String
   end
 
   def exclamation?
-    self.end_with?("!")  #why it works without if/else ?
+    self.end_with?("!")  
   end
 
   def count_sentences
-  self.split(/[\.!?] /).count  # why we need space after "/"??
+  self.split(/[\.!?] /).count  
   end
 end
